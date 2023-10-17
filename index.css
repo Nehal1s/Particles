@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace, sans-serif;
+  }
+  #canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #370350;
+  }
+  #controls{
+    z-index: 100; 
+    bottom: 0;
+    left: 35%;
+    position: absolute;
+    margin: 20px;
+    display: none;
+  }
+  img{
+    display: none;
+  }
+
+  button{
+    background: #0eadd4;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+  }
+  
